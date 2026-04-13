@@ -1,0 +1,46 @@
+.container {
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.inputGroup label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+}
+
+.successBox {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: var(--success);
+  border-radius: var(--radius);
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+}
